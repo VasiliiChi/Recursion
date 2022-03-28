@@ -25,6 +25,8 @@ namespace Recursion
                 modif = modif.Remove(0, 2);
                 
             }
+
+            Console.ForegroundColor = (ConsoleColor)deep;
             Console.WriteLine("..." + modif);
 
             if (deep > 1)
